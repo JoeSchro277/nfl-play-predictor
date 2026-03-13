@@ -1,0 +1,12 @@
+replay_games/
+nfl_tracking_data/
+yolov8n.pt
+*.csv
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+runs/
+*_backup*
+*.DS_Store

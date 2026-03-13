@@ -1,0 +1,450 @@
+{
+  "ARI": {
+    "team_ratio": 0.445,
+    "coach_aggressiveness": 0.555,
+    "coach_pass_rate_by_down": {
+      "1": 0.49,
+      "2": 0.595,
+      "3": 0.656,
+      "4": 0.556
+    },
+    "def_yards_per_play": 5.66,
+    "def_pass_yards_per_play": 6.35,
+    "def_rush_yards_per_play": 4.77,
+    "def_pass_rush_diff": 1.58
+  },
+  "ATL": {
+    "team_ratio": 0.451,
+    "coach_aggressiveness": 0.549,
+    "coach_pass_rate_by_down": {
+      "1": 0.405,
+      "2": 0.605,
+      "3": 0.758,
+      "4": 0.742
+    },
+    "def_yards_per_play": 5.61,
+    "def_pass_yards_per_play": 6.28,
+    "def_rush_yards_per_play": 4.68,
+    "def_pass_rush_diff": 1.6
+  },
+  "BAL": {
+    "team_ratio": 0.53,
+    "coach_aggressiveness": 0.47,
+    "coach_pass_rate_by_down": {
+      "1": 0.389,
+      "2": 0.473,
+      "3": 0.664,
+      "4": 0.438
+    },
+    "def_yards_per_play": 5.25,
+    "def_pass_yards_per_play": 6.11,
+    "def_rush_yards_per_play": 3.71,
+    "def_pass_rush_diff": 2.4
+  },
+  "BUF": {
+    "team_ratio": 0.482,
+    "coach_aggressiveness": 0.518,
+    "coach_pass_rate_by_down": {
+      "1": 0.399,
+      "2": 0.562,
+      "3": 0.713,
+      "4": 0.452
+    },
+    "def_yards_per_play": 5.66,
+    "def_pass_yards_per_play": 6.4,
+    "def_rush_yards_per_play": 4.66,
+    "def_pass_rush_diff": 1.74
+  },
+  "CAR": {
+    "team_ratio": 0.407,
+    "coach_aggressiveness": 0.593,
+    "coach_pass_rate_by_down": {
+      "1": 0.468,
+      "2": 0.609,
+      "3": 0.791,
+      "4": 0.767
+    },
+    "def_yards_per_play": 6.08,
+    "def_pass_yards_per_play": 6.79,
+    "def_rush_yards_per_play": 5.39,
+    "def_pass_rush_diff": 1.4
+  },
+  "CHI": {
+    "team_ratio": 0.396,
+    "coach_aggressiveness": 0.604,
+    "coach_pass_rate_by_down": {
+      "1": 0.491,
+      "2": 0.609,
+      "3": 0.772,
+      "4": 0.737
+    },
+    "def_yards_per_play": 5.91,
+    "def_pass_yards_per_play": 6.79,
+    "def_rush_yards_per_play": 4.9,
+    "def_pass_rush_diff": 1.89
+  },
+  "CIN": {
+    "team_ratio": 0.344,
+    "coach_aggressiveness": 0.656,
+    "coach_pass_rate_by_down": {
+      "1": 0.53,
+      "2": 0.719,
+      "3": 0.813,
+      "4": 0.895
+    },
+    "def_yards_per_play": 5.52,
+    "def_pass_yards_per_play": 6.26,
+    "def_rush_yards_per_play": 4.56,
+    "def_pass_rush_diff": 1.7
+  },
+  "CLE": {
+    "team_ratio": 0.345,
+    "coach_aggressiveness": 0.655,
+    "coach_pass_rate_by_down": {
+      "1": 0.599,
+      "2": 0.639,
+      "3": 0.797,
+      "4": 0.545
+    },
+    "def_yards_per_play": 5.78,
+    "def_pass_yards_per_play": 6.59,
+    "def_rush_yards_per_play": 4.82,
+    "def_pass_rush_diff": 1.77
+  },
+  "DAL": {
+    "team_ratio": 0.384,
+    "coach_aggressiveness": 0.616,
+    "coach_pass_rate_by_down": {
+      "1": 0.538,
+      "2": 0.608,
+      "3": 0.767,
+      "4": 0.786
+    },
+    "def_yards_per_play": 5.9,
+    "def_pass_yards_per_play": 6.57,
+    "def_rush_yards_per_play": 5.07,
+    "def_pass_rush_diff": 1.5
+  },
+  "DEN": {
+    "team_ratio": 0.427,
+    "coach_aggressiveness": 0.573,
+    "coach_pass_rate_by_down": {
+      "1": 0.469,
+      "2": 0.566,
+      "3": 0.772,
+      "4": 0.708
+    },
+    "def_yards_per_play": 5.11,
+    "def_pass_yards_per_play": 5.75,
+    "def_rush_yards_per_play": 4.13,
+    "def_pass_rush_diff": 1.62
+  },
+  "DET": {
+    "team_ratio": 0.464,
+    "coach_aggressiveness": 0.536,
+    "coach_pass_rate_by_down": {
+      "1": 0.451,
+      "2": 0.553,
+      "3": 0.718,
+      "4": 0.543
+    },
+    "def_yards_per_play": 5.82,
+    "def_pass_yards_per_play": 6.54,
+    "def_rush_yards_per_play": 4.61,
+    "def_pass_rush_diff": 1.93
+  },
+  "GB": {
+    "team_ratio": 0.5,
+    "coach_aggressiveness": 0.5,
+    "coach_pass_rate_by_down": {
+      "1": 0.378,
+      "2": 0.52,
+      "3": 0.75,
+      "4": 0.444
+    },
+    "def_yards_per_play": 5.22,
+    "def_pass_yards_per_play": 5.97,
+    "def_rush_yards_per_play": 4.15,
+    "def_pass_rush_diff": 1.82
+  },
+  "HOU": {
+    "team_ratio": 0.41,
+    "coach_aggressiveness": 0.59,
+    "coach_pass_rate_by_down": {
+      "1": 0.484,
+      "2": 0.567,
+      "3": 0.831,
+      "4": 0.619
+    },
+    "def_yards_per_play": 5.1,
+    "def_pass_yards_per_play": 5.67,
+    "def_rush_yards_per_play": 4.3,
+    "def_pass_rush_diff": 1.37
+  },
+  "IND": {
+    "team_ratio": 0.473,
+    "coach_aggressiveness": 0.527,
+    "coach_pass_rate_by_down": {
+      "1": 0.441,
+      "2": 0.562,
+      "3": 0.647,
+      "4": 0.607
+    },
+    "def_yards_per_play": 5.61,
+    "def_pass_yards_per_play": 6.72,
+    "def_rush_yards_per_play": 4.36,
+    "def_pass_rush_diff": 2.36
+  },
+  "JAX": {
+    "team_ratio": 0.411,
+    "coach_aggressiveness": 0.589,
+    "coach_pass_rate_by_down": {
+      "1": 0.464,
+      "2": 0.657,
+      "3": 0.74,
+      "4": 0.5
+    },
+    "def_yards_per_play": 6.0,
+    "def_pass_yards_per_play": 7.08,
+    "def_rush_yards_per_play": 4.64,
+    "def_pass_rush_diff": 2.44
+  },
+  "KC": {
+    "team_ratio": 0.399,
+    "coach_aggressiveness": 0.601,
+    "coach_pass_rate_by_down": {
+      "1": 0.504,
+      "2": 0.636,
+      "3": 0.761,
+      "4": 0.333
+    },
+    "def_yards_per_play": 5.34,
+    "def_pass_yards_per_play": 6.17,
+    "def_rush_yards_per_play": 4.22,
+    "def_pass_rush_diff": 1.95
+  },
+  "LA": {
+    "team_ratio": 0.416,
+    "coach_aggressiveness": 0.584,
+    "coach_pass_rate_by_down": {
+      "1": 0.522,
+      "2": 0.574,
+      "3": 0.748,
+      "4": 0.538
+    },
+    "def_yards_per_play": 5.62,
+    "def_pass_yards_per_play": 6.1,
+    "def_rush_yards_per_play": 5.02,
+    "def_pass_rush_diff": 1.08
+  },
+  "LAC": {
+    "team_ratio": 0.439,
+    "coach_aggressiveness": 0.561,
+    "coach_pass_rate_by_down": {
+      "1": 0.442,
+      "2": 0.639,
+      "3": 0.671,
+      "4": 0.647
+    },
+    "def_yards_per_play": 5.44,
+    "def_pass_yards_per_play": 5.82,
+    "def_rush_yards_per_play": 4.89,
+    "def_pass_rush_diff": 0.93
+  },
+  "LV": {
+    "team_ratio": 0.352,
+    "coach_aggressiveness": 0.648,
+    "coach_pass_rate_by_down": {
+      "1": 0.596,
+      "2": 0.631,
+      "3": 0.775,
+      "4": 0.72
+    },
+    "def_yards_per_play": 5.49,
+    "def_pass_yards_per_play": 6.18,
+    "def_rush_yards_per_play": 4.54,
+    "def_pass_rush_diff": 1.64
+  },
+  "MIA": {
+    "team_ratio": 0.41,
+    "coach_aggressiveness": 0.59,
+    "coach_pass_rate_by_down": {
+      "1": 0.462,
+      "2": 0.639,
+      "3": 0.767,
+      "4": 0.742
+    },
+    "def_yards_per_play": 5.36,
+    "def_pass_yards_per_play": 5.95,
+    "def_rush_yards_per_play": 4.47,
+    "def_pass_rush_diff": 1.48
+  },
+  "MIN": {
+    "team_ratio": 0.412,
+    "coach_aggressiveness": 0.588,
+    "coach_pass_rate_by_down": {
+      "1": 0.431,
+      "2": 0.638,
+      "3": 0.847,
+      "4": 0.706
+    },
+    "def_yards_per_play": 5.35,
+    "def_pass_yards_per_play": 6.03,
+    "def_rush_yards_per_play": 4.17,
+    "def_pass_rush_diff": 1.86
+  },
+  "NE": {
+    "team_ratio": 0.429,
+    "coach_aggressiveness": 0.571,
+    "coach_pass_rate_by_down": {
+      "1": 0.433,
+      "2": 0.597,
+      "3": 0.804,
+      "4": 0.542
+    },
+    "def_yards_per_play": 5.51,
+    "def_pass_yards_per_play": 6.39,
+    "def_rush_yards_per_play": 4.52,
+    "def_pass_rush_diff": 1.87
+  },
+  "NO": {
+    "team_ratio": 0.424,
+    "coach_aggressiveness": 0.576,
+    "coach_pass_rate_by_down": {
+      "1": 0.483,
+      "2": 0.596,
+      "3": 0.721,
+      "4": 0.593
+    },
+    "def_yards_per_play": 5.88,
+    "def_pass_yards_per_play": 6.42,
+    "def_rush_yards_per_play": 5.14,
+    "def_pass_rush_diff": 1.28
+  },
+  "NYG": {
+    "team_ratio": 0.391,
+    "coach_aggressiveness": 0.609,
+    "coach_pass_rate_by_down": {
+      "1": 0.574,
+      "2": 0.547,
+      "3": 0.77,
+      "4": 0.541
+    },
+    "def_yards_per_play": 5.73,
+    "def_pass_yards_per_play": 6.52,
+    "def_rush_yards_per_play": 4.83,
+    "def_pass_rush_diff": 1.69
+  },
+  "NYJ": {
+    "team_ratio": 0.356,
+    "coach_aggressiveness": 0.644,
+    "coach_pass_rate_by_down": {
+      "1": 0.522,
+      "2": 0.666,
+      "3": 0.848,
+      "4": 0.75
+    },
+    "def_yards_per_play": 5.07,
+    "def_pass_yards_per_play": 5.78,
+    "def_rush_yards_per_play": 4.25,
+    "def_pass_rush_diff": 1.53
+  },
+  "PHI": {
+    "team_ratio": 0.554,
+    "coach_aggressiveness": 0.446,
+    "coach_pass_rate_by_down": {
+      "1": 0.326,
+      "2": 0.513,
+      "3": 0.583,
+      "4": 0.548
+    },
+    "def_yards_per_play": 4.84,
+    "def_pass_yards_per_play": 5.14,
+    "def_rush_yards_per_play": 4.36,
+    "def_pass_rush_diff": 0.78
+  },
+  "PIT": {
+    "team_ratio": 0.477,
+    "coach_aggressiveness": 0.523,
+    "coach_pass_rate_by_down": {
+      "1": 0.406,
+      "2": 0.533,
+      "3": 0.748,
+      "4": 0.368
+    },
+    "def_yards_per_play": 5.48,
+    "def_pass_yards_per_play": 6.23,
+    "def_rush_yards_per_play": 4.39,
+    "def_pass_rush_diff": 1.84
+  },
+  "SEA": {
+    "team_ratio": 0.363,
+    "coach_aggressiveness": 0.637,
+    "coach_pass_rate_by_down": {
+      "1": 0.575,
+      "2": 0.627,
+      "3": 0.798,
+      "4": 0.474
+    },
+    "def_yards_per_play": 5.37,
+    "def_pass_yards_per_play": 5.86,
+    "def_rush_yards_per_play": 4.7,
+    "def_pass_rush_diff": 1.16
+  },
+  "SF": {
+    "team_ratio": 0.444,
+    "coach_aggressiveness": 0.556,
+    "coach_pass_rate_by_down": {
+      "1": 0.486,
+      "2": 0.532,
+      "3": 0.765,
+      "4": 0.562
+    },
+    "def_yards_per_play": 5.32,
+    "def_pass_yards_per_play": 5.92,
+    "def_rush_yards_per_play": 4.6,
+    "def_pass_rush_diff": 1.32
+  },
+  "TB": {
+    "team_ratio": 0.44,
+    "coach_aggressiveness": 0.56,
+    "coach_pass_rate_by_down": {
+      "1": 0.487,
+      "2": 0.568,
+      "3": 0.721,
+      "4": 0.357
+    },
+    "def_yards_per_play": 5.52,
+    "def_pass_yards_per_play": 6.23,
+    "def_rush_yards_per_play": 4.29,
+    "def_pass_rush_diff": 1.94
+  },
+  "TEN": {
+    "team_ratio": 0.435,
+    "coach_aggressiveness": 0.565,
+    "coach_pass_rate_by_down": {
+      "1": 0.449,
+      "2": 0.606,
+      "3": 0.721,
+      "4": 0.696
+    },
+    "def_yards_per_play": 5.31,
+    "def_pass_yards_per_play": 5.97,
+    "def_rush_yards_per_play": 4.64,
+    "def_pass_rush_diff": 1.33
+  },
+  "WAS": {
+    "team_ratio": 0.467,
+    "coach_aggressiveness": 0.533,
+    "coach_pass_rate_by_down": {
+      "1": 0.427,
+      "2": 0.56,
+      "3": 0.718,
+      "4": 0.474
+    },
+    "def_yards_per_play": 5.69,
+    "def_pass_yards_per_play": 6.21,
+    "def_rush_yards_per_play": 5.11,
+    "def_pass_rush_diff": 1.1
+  }
+}
