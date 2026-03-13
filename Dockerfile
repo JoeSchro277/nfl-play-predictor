@@ -1,9 +1,13 @@
 FROM python:3.12-slim
 
-# Install system dependencies (Tesseract for OCR, libGL for OpenCV)
+# Install system dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     tesseract-ocr \
     libglib2.0-0 \
+    libgl1 \
+    libsm6 \
+    libxext6 \
+    libxrender1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
@@ -23,5 +27,4 @@ RUN python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"
 EXPOSE 8080
 
 # Run with gunicorn for production
-# Railway sets PORT env var, default to 8080 for local Docker testing
 CMD gunicorn --bind 0.0.0.0:${PORT:-8080} --timeout 120 --workers 2 app:app
