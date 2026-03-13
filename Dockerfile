@@ -27,4 +27,4 @@ RUN python -c "from ultralytics import YOLO; YOLO('yolov8n.pt')"
 EXPOSE 8080
 
 # Run with gunicorn for production
-CMD gunicorn --bind 0.0.0.0:${PORT:-8080} --timeout 120 --workers 2 app:app
+CMD gunicorn --bind 0.0.0.0:${PORT:-8080} --timeout 300 --workers 1 app:app
