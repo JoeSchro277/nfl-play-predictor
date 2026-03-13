@@ -52,6 +52,16 @@ with open(STATS_PATH, 'r') as f:
 
 print(f"Team stats loaded: {len(team_stats)} teams")
 
+# Extract replay games from zip if folder doesn't exist
+REPLAY_ZIP = 'replay_games.zip'
+if not os.path.exists(REPLAY_DIR) or not os.listdir(REPLAY_DIR):
+    if os.path.exists(REPLAY_ZIP):
+        import zipfile
+        print(f"Extracting {REPLAY_ZIP}...")
+        with zipfile.ZipFile(REPLAY_ZIP, 'r') as z:
+            z.extractall('.')
+        print(f"Extracted to {REPLAY_DIR}/")
+
 # Load game index if available
 game_index = []
 game_index_path = os.path.join(REPLAY_DIR, 'game_index.json')
