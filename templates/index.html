@@ -416,7 +416,8 @@ body::before {
   font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
-  min-height: 44px;
+  height: 72px;
+  overflow-y: auto;
   transition: border-color 0.3s;
 }
 
@@ -1545,7 +1546,6 @@ body::before {
 /* ============================================================
    JIGGLE FIX — stable heights during auto-play
    ============================================================ */
-.play-desc-bar { min-height: 62px; }
 .prediction-result { min-height: 56px; }
 .actual-result { min-height: 40px; }
 .field-situation { min-height: 46px; }
@@ -1587,9 +1587,14 @@ body::before {
   .selector-row {
     flex-direction: column;
     gap: 12px;
+    align-items: stretch;
+  }
+  .selector-group {
+    width: 100%;
   }
   .selector-group select,
   .selector-group input {
+    width: 100%;
     min-width: 100%;
   }
 
