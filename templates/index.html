@@ -1541,6 +1541,134 @@ body::before {
 ::-webkit-scrollbar-track { background: var(--bg-primary); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
+/* ============================================================
+   JIGGLE FIX — stable heights during auto-play
+   ============================================================ */
+.play-desc-bar { min-height: 62px; }
+.prediction-result { min-height: 56px; }
+.actual-result { min-height: 40px; }
+.field-situation { min-height: 46px; }
+
+/* ============================================================
+   MOBILE RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+
+  .header-title { font-size: 15px; }
+  .header-logo { font-size: 11px; }
+
+  .header-stats {
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 11px;
+  }
+
+  /* TABS */
+  .mode-tabs { padding: 0 8px; }
+  .mode-tab {
+    padding: 12px 14px;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+  }
+
+  /* MAIN */
+  .main { padding: 16px; }
+
+  /* GAME SELECTOR */
+  .game-selector { padding: 16px; }
+  .selector-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .selector-group select,
+  .selector-group input {
+    min-width: 100%;
+  }
+
+  /* REPLAY GRID — stack vertically */
+  .replay-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* FIELD */
+  .field-container { padding: 12px; }
+  .field-header { flex-direction: column; gap: 8px; }
+  .field-scoreboard { flex-wrap: wrap; justify-content: center; }
+  .team-score { font-size: 22px; }
+  .team-abbr { font-size: 14px; }
+
+  .field-situation {
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+
+  /* PREDICTION PANEL */
+  .prediction-panel { padding: 16px; gap: 14px; }
+  .prediction-result { font-size: 32px !important; }
+  .prediction-result.waiting { font-size: 12px !important; }
+  .accuracy-big { font-size: 40px; }
+
+  /* PLAY CONTROLS */
+  .play-controls { flex-wrap: wrap; }
+  .play-controls .btn { min-width: 60px; font-size: 9px; padding: 8px 12px; }
+  .speed-controls { flex-wrap: wrap; }
+
+  /* FORMATION INFO */
+  .formation-info {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+
+  /* GAME SUMMARY OVERLAY */
+  .game-summary-overlay { padding: 16px; }
+  .summary-card {
+    padding: 24px 16px;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .summary-hero-number { font-size: 52px; }
+  .summary-matchup { font-size: 18px; }
+  .summary-breakdowns { grid-template-columns: 1fr; gap: 20px; }
+  .summary-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .summary-actions .btn { min-width: 100%; }
+
+  /* QUICK PREDICT */
+  .qp-grid { grid-template-columns: 1fr !important; }
+  .qp-row { flex-wrap: wrap; gap: 8px; }
+  .qp-setup-bar { padding: 16px; }
+  .selector-row { flex-direction: column; }
+  .qp-mode-toggle {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .qp-mode-accuracy {
+    border-left: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 4px;
+    width: 100%;
+  }
+  .toggle-row { flex-wrap: wrap; gap: 4px; }
+  .toggle-btn { padding: 6px 10px; font-size: 10px; }
+  .btn-lg { padding: 14px 20px; font-size: 12px; }
+
+  /* ANALYZE */
+  .az-layout { grid-template-columns: 1fr !important; }
+  .az-upload-inner { padding: 40px 20px; }
+  .az-upload-inner h3 { font-size: 13px; }
+}
 </style>
 </head>
 <body>
